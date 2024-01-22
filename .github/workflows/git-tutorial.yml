@@ -14,5 +14,5 @@ jobs:
       # Checkout the latest version of the code so we can inspect it
       - uses: actions/checkout@v2
 
-      # Use grep to look for the word blueberry in the fruit.txt file
-      - run: grep blueberry fruit.txt
+      # Use grep to look for the word apple in the fruit.txt file
+      - run: grep apple fruit.txt
